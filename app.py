@@ -27,7 +27,7 @@ st.set_page_config(
 # LOADING ANIMATION
 # ---------------------------------------------------
 
-with st.spinner("🚍 Initializing PANIMALAR Transport System... Developed By Dept Of ADS "):
+with st.spinner("🚍 Initializing PANIMALAR Transport System... Developed By ADHITYAN Dept Of ADS "):
     time.sleep(3)
 
 # ---------------------------------------------------
@@ -77,7 +77,8 @@ with col1:
     st.image("logo.png", width=90)
 
 with col2:
-    st.markdown('<div class="main-header">TRANSPORT‑PANIMALAR</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header">TRANSPORT</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header">PANIMALAR</div>', unsafe_allow_html=True)
 
 # ---------------------------------------------------
 # LOGIN SESSION
